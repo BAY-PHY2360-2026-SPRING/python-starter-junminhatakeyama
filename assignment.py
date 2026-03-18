@@ -4,18 +4,21 @@ def hello_world() -> str:
     """
     Implement a function that returns Hello World!
     """
-    raise NotImplementedError()
+    #raise NotImplementedError()
+    return "Hello World!"
 
 
-def add_two(number: int) -> int:
+def add_two(number):
     """
     Adds two to `number`
     """
-    raise NotImplementedError()
+    #raise NotImplementedError()
+    return number+2
 
 
-def zero_array(N: int) -> np.ndarray:
+def zero_array(N):
     """
     Returns a double type ndarray of length N filled with zeros 
     """
-    raise NotImplementedError()
+    #raise NotImplementedError()
+    return np.zeros(N, dtype=np.float64)
